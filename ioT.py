@@ -12,7 +12,7 @@ GPIO.output(16,0)
 
 while True:
     
-    if(GPIO.input(16)!=True):
+    if(GPIO.input(23)!=True):
             
         GPIO.output(16,1)
         time.sleep(5)
